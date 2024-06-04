@@ -4,7 +4,7 @@ This project is a Full Stack MERN application designed for facilitating money tr
 
 ## Live Demo
 
-Check out the live demo of the Money Transfer Web Application: [Live Demo](mern-money-transfer.vercel.app/)
+Check out the live demo of the Money Transfer Web Application: [Live Demo](https://mern-money-transfer.vercel.app/)
 
 ## Table of Contents
 
