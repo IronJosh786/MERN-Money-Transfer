@@ -2,6 +2,10 @@
 
 This project is a Full Stack MERN application designed for facilitating money transfers, akin to a financial transaction application.
 
+## Live Demo
+
+Check out the live demo of the Money Transfer Web Application: [Live Demo](mern-money-transfer.vercel.app/)
+
 ## Table of Contents
 
 - [Features](#features)
@@ -23,6 +27,8 @@ This project is a Full Stack MERN application designed for facilitating money tr
   - [1. User Model](#1-user-model)
 
   - [2. Transaction Model](#2-transaction-model)
+
+- [Contributing](#contributing)
 
 ## Features
 
@@ -74,15 +80,33 @@ Before setting up the project, ensure you have the following installed:
 
 4. Install the dependencies
 
-   ```bash
-   npm install
-   ```
+```bash
+# Frontend
+
+cd Frontend
+npm install
+
+# Backend
+
+cd Backend
+npm install
+```
 
 5. Start the development server
 
-   ```bash
-   npm start
-   ```
+```bash
+# Backend
+
+cd Backend
+npm start
+
+# Frontend
+
+cd Frontend
+npm run dev
+```
+
+6. Open your browser and navigate to http://localhost:5173 to view the application.
 
 ## Controllers
 
@@ -103,3 +127,28 @@ Model for user information including username, email, password (hashed), and pro
 ### 2. Transaction Model
 
 Model to store information about transactions, including sender, receiver, amount, date/time, and any additional details.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+- Fork the repository
+- Create your feature branch
+
+```bash
+git checkout -b feature/YourFeature
+```
+
+- Commit your changes
+
+```bash
+git commit -am 'Add some feature'
+```
+
+- Push to the branch
+
+```bash
+git push origin feature/YourFeature
+```
+
+- Create a new Pull Request
